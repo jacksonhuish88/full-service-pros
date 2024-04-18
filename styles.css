@@ -53,7 +53,9 @@ header .nav-link{
 
 .footer h5 {
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+    margin-top:16px;
+    font-size: 28px;
 }
 
 .footer p, .footer a {
@@ -241,4 +243,8 @@ footer .btn-primary {
     .contact-form {
         width: 90%; /* Make the form wider on smaller screens */
     }
+}
+
+.list-unstyled a{
+    text-decoration: none;
 }
