@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             title: "Snow Removal",
             text: "Our snow removal services ensure your driveways and walkways are clear and safe during the winter months, using efficient equipment and techniques to handle even the heaviest snowfalls.",
-            icon: "fa-solid fa-dumpster"
+            icon: "fa-solid fa-snowflake"
         },
         {
             title: "Dog Care",
