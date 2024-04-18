@@ -225,11 +225,14 @@ footer .btn-primary {
     color:#fff;
 }
 
-.contact-us button{
+.contact-us .btn{
     background-color: #333;
-    color:white
+    color:white;
+    font-size:28px;
+    padding:5px 8px 5px 8px;
+    margin:5px 5px 5px 8px;
 }
-.contact-us button:hover{
+.contact-us .btn:hover{
     background-color: #242424;
     color:white
 }
