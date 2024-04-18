@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Titillium Web', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa; /* Light background for the body */
+}
+
+header nav {
+    background-color: #333;
+    box-shadow: 0px 0px 15px 0px #141414;
+}
+
+header .nav-link{
+    color:#fff
+}
+
+.hero {
+    padding: 50px 0;
+    background-color: #006fe6; /* Slightly darker blue for contrast */
+    color: white;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+}
+
+
+.services {
+    background-color: #f8f9fa; /* Light gray background to match body */
+}
+
+.service-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.footer {
+    background-color: #333; /* Dark gray background */
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer p, .footer a {
+    color: #fff; /* Light gray text */
+    line-height: 1.8;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer-logo {
+    margin-bottom: 200px;
+}
+
+.footer-brand {
+    display: flex; /* Use flexbox to align items on the same line */
+    align-items: center; /* Align items vertically */
+}
+
+.footer-brand i {
+    font-size: 2rem; /* Adjust this as necessary */
+    margin-right: 1rem; /* Adds some space between the icon and the text */
+}
+
+/* This class is added to ensure no margin at the bottom of the h3 causes alignment issues */
+.footer-brand h3.mb-0 {
+    margin-bottom: 0; /* Removes the bottom margin from h3 */
+}
+
+
+.social-media a {
+    color: #aaa;
+    margin-right: 10px;
+}
+
+.social-media a:hover {
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .footer .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
+
+.info-section {
+    background-color: #f8f9fa; /* Adjust the color as necessary */
+}
+
+.info-item {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.info-item i {
+    margin-bottom: 20px;
+    color: #007bff; /* Adjust the color to match your theme */
+}
+
+.info-item h3 {
+    color: #333; /* Adjust the color to match your theme */
+}
+
+.info-section p{
+    font-size: 18px;
+}
+
+.services-overview {
+    background-color: #333; /* A clean white background */
+    color: #fff; /* Dark text for contrast */
+}
+
+.services-overview h1 {
+    color: #007bff;
+    text-shadow: 1px 1px 0 #242424, 2px 2px 0 #242424, 1px 1px 0 #242424;
+}
+
+.services-overview h2 {
+    color: #fff; /* Theme blue for headings */
+}
+
+.services-overview h3 {
+    color: #fff; /* A blue color for subheadings */
+    /* text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 1px 1px 0 #333; */
+}
+
+.services-overview p {
+    font-size: 1.1em; /* Slightly larger paragraph text for readability */
+}
+
+footer .btn-primary {
+    background-color: #007bff; /* Match the button to the theme blue */
+    color: #fff;
+    border: none; /* Optional: remove the border for a cleaner look */
+    padding: 0.75em 1.5em; /* Larger padding for a bigger button */
+}
+
+/* Show the dropdown on hover */
+@media (min-width: 992px) { /* Adjust this breakpoint to suit your needs */
+    .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+/* Optional: Change the dropdown link color on hover */
+.navbar .nav-item.dropdown:hover > .nav-link {
+    color: #fff;
+}
+
+.title-icon-wrapper {
+    display: flex;
+    align-items: center; /* Vertically centers the icon and text */
+    gap: 10px; /* Optional: adds space between the icon and the text */
+}
+
+.card-title {
+    margin-bottom: 0; /* Optionally remove margin for better alignment */
+    margin-top:8px;
+    padding-left:8px
+}
+
+.title-icon-wrapper i{
+        color: #007bff;
+}
+
+.img-fluid{
+    box-shadow: 0px 0px 25px 0px #242424;
+    margin-left: 45px
+}
+
+.main-overview-title {
+    color: #007bff;
+    text-shadow: 1px 1px 0 #242424, 2px 2px 0 #242424, 3px 3px 0 #242424;
+}
+
+.nav-overview-title {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0 #242424, 2px 2px 0 #242424, 1px 1px 0 #242424;
+}
+
+.centered-title {
+    display: flex;        /* Enables flexbox */
+    align-items: center;  /* Vertically center the items in the container */
+    justify-content: center; /* Horizontally center the items in the container */
+    text-align: center;   /* Ensures text within children (like <h2>) is centered */
+}
+
+.centered-title h1 {
+    margin-left: 10px;    /* Adds spacing between the icon and the text */
+    padding-top:18px;
+}
+
+.centered-title i {
+    /* Optionally, adjust styling for the icon here */
+    color:#007bff;
+}
+
+.contact-us {
+    background-color: #007bff; /* Light gray background */
+    color: #fff; /* Dark text for better readability */
+    padding: 15px 0px;
+}
+
+.contact-us h2 a{
+    color:#fff;
+}
+
+.contact-us button{
+    background-color: #333;
+    color:white
+}
+.contact-us button:hover{
+    background-color: #242424;
+    color:white
+}
+
+.contact-form {
+    max-width: 500px; /* Set a max-width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        width: 90%; /* Make the form wider on smaller screens */
+    }
+}
