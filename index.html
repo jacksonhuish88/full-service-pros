@@ -10,6 +10,7 @@
     <script src="js/service-cards.js"></script>
     <script src="js/info-cards.js"></script>
     <script src="js/contact-us.js"></script>  
+    <script src="js/drop-down-menu.js"></script>
 
 </head>
 <body>
@@ -34,13 +35,11 @@
                             <a class="nav-link dropdown-toggle nav-overview-title" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                                <li><a class="dropdown-item" href="car-wash.html">Car Wash</a></li>
-                                <li><a class="dropdown-item" href="landscaping.html">Landscaping</a></li>
-                                <li><a class="dropdown-item" href="dump-runs.html">Dump Runs</a></li>
-                                <li><a class="dropdown-item" href="powerwashing.html">Powerwashing</a></li>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown" id="servicesDropdownMenu">
+                                <!-- Dropdown menu items will be inserted here by JavaScript -->
                             </ul>
                         </li>
+                        
                         <li class="nav-item nav-overview-title">
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
@@ -148,7 +147,7 @@
                 <!-- Contact Info -->
                 <div class="col-md-2">
                     <h5 class="nav-overview-title">Contact</h5>
-                    <p><a href="mailto:info@example.com">info@example.com</a></p>
+                    <p><a href="mailto:fullserviceprosutah@gmail.com">fullserviceprosutah@gmail.com</a></p>
                     <p><a href="tel:916-305-1222">916-305-1222</a></p>
                     <p>555 Country Cottage Drive, Wasatch County, UT</p>
                     <!-- Social Media Icons -->

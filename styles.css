@@ -185,7 +185,6 @@ footer .btn-primary {
 
 .img-fluid{
     box-shadow: 0px 0px 25px 0px #242424;
-    margin-left: 45px
 }
 
 .main-overview-title {
@@ -226,7 +225,7 @@ footer .btn-primary {
 }
 
 .contact-us .btn{
-    background-color: #333;
+    background-color: #00bf13;
     color:white;
     font-size:28px;
     padding:5px 8px 5px 8px;
@@ -252,3 +251,7 @@ footer .btn-primary {
     text-decoration: none;
 }
   
+.card-body a{
+    color:#333;
+    text-decoration: none;
+}

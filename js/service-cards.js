@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             icon: "fa-solid fa-dumpster"
         },
         {
-            title: "Landscaping",
+            title: "Turf Install",
             text: "Our professional landscaping services enhance the beauty and functionality of your outdoor spaces, including garden design, maintenance, and installation.",
             icon: "fa-brands fa-pagelines"
         },
@@ -53,12 +53,14 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="col-md-4 mb-3">
             <div class="card service-card">
                 <div class="card-body">
-                    <!-- Flex container for icon and title -->
+                <!-- Anchor link wrapping the icon and title -->
+                <a href="#${service.title.toLowerCase().replace(/\s+/g, '-')}">
                     <div class="title-icon-wrapper">
                         <i class="${service.icon} fa-2x"></i>
                         <h3 class="card-title">${service.title}</h3>
                     </div>
-                    <p class="card-text">${service.text}</p>
+                </a>
+                <p class="card-text">${service.text}</p>
                 </div>
             </div>
         </div>
