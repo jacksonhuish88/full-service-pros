@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const container = document.getElementById('services-container');
     services.forEach(service => {
         const serviceHTML = `
-            <div class="col-md-4 mb-3">
-            <div class="card service-card" id="${service.title.toLowerCase().replace(/\s+/g, '-')}">
+            <div class="col-md-4 mb-3" id="${service.title.toLowerCase().replace(/\s+/g, '-')}">
+            <div class="card service-card">
                 <div class="card-body">
                 <!-- Anchor link wrapping the icon and title -->
                 <div class="title-icon-wrapper">
