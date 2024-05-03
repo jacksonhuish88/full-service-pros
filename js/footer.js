@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 <!-- Company Info -->
                 <div class="col-md-6">
                     <div class="footer-brand d-flex align-items-center">
-                        <i class="fa-solid fa-xl fa-truck-moving nav-overview-title icon-large"></i>
+                        <img src="./img/bull.png" alt="Buffalogo">
                         <h2 class="nav-overview-title ms-2">Full Service Pros Utah</h2>
                     </div>
                     <p>Our dedicated crew handles your home and wheels with the tender care of a parent cradling a newborn. From moving to car detailing, we pamper your prized possessions. We aim for a chill vibe only, so leave the stress to the professionals – namely, your in-laws.</p>
-                    <a href="#" class="btn btn-primary">Leave a Review!</a>
+                    <a href="#" class="btn btn-primary" style="color:#121212">Leave a Review!</a>
                 </div>              
             
                 <!-- Services -->
