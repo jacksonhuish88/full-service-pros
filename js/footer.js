@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <!-- Social Media Icons -->
                     <div class="social-media">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/FullServiceProsUtah" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
