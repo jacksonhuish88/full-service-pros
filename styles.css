@@ -152,6 +152,13 @@ header .nav-link{
     font-size: 1.1em; /* Slightly larger paragraph text for readability */
 }
 
+.services-overview .btn-main{
+    font-size:24px;
+    background-color: #37b6ff;
+    border:none;
+    color:#121212;
+}
+
 footer .btn-primary {
     background-color: #37b6ff; /* Match the button to the theme blue */
     color: #fff;
@@ -203,6 +210,7 @@ footer .btn-primary {
 
 .nav-overview-title {
     color: #FFFFFF;
+    font-weight: bold;
     text-shadow: 1px 1px 0 #242424, 2px 2px 0 #242424, 1px 1px 0 #242424;
 }
 
@@ -227,6 +235,7 @@ footer .btn-primary {
     background-color: #37b6ff; /* Light gray background */
     color: #121212; /* Dark text for better readability */
     padding: 15px 0px;
+    font-weight: bold;
 }
 
 .contact-us h2 a{
@@ -236,11 +245,11 @@ footer .btn-primary {
 .contact-us .btn{
     background-color: #00bf13;
     border: solid;
-    border-color: #121212;
     color:#121212;
     font-size:28px;
     padding:5px 8px 5px 8px;
     margin:5px 5px 10px 8px;
+    
 }
 .contact-us .btn:hover{
     background-color: #242424;
