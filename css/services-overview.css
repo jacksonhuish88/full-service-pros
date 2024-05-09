@@ -1,0 +1,33 @@
+.services-overview {
+    background-color: #121212; /* A clean black background */
+    color: #fff; /* Dark text for contrast */
+}
+
+.services-overview h1 {
+    color: #37b6ff;
+    text-shadow: 1px 1px 0 #242424, 2px 2px 0 #242424, 1px 1px 0 #242424;
+}
+
+.services-overview h2 {
+    color: #fff; /* Theme blue for headings */
+}
+
+.services-overview h3 {
+    color: #fff; /* A blue color for subheadings */
+    /* text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 1px 1px 0 #333; */
+}
+
+.services-overview p {
+    font-size: 1.1em; /* Slightly larger paragraph text for readability */
+}
+
+.services-overview .btn-main{
+    font-size:24px;
+    background-color: #37b6ff;
+    border:none;
+    color:#121212;
+}
+
+.services-overview img{
+    border-radius: 10px 10px 10px 10px;
+}

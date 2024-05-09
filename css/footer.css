@@ -1,0 +1,68 @@
+
+.footer {
+    background-color: #121212; /* Dark gray background */
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 12px;
+    margin-top:16px;
+    font-size: 28px;
+}
+
+.footer p, .footer a {
+    color: #fff; /* Light gray text */
+    line-height: 1.8;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer-logo {
+    margin-bottom: 200px;
+}
+
+.footer-brand {
+    display: flex; /* Use flexbox to align items on the same line */
+    align-items: center; /* Align items vertically */
+}
+
+.footer-brand i {
+    font-size: 2rem; /* Adjust this as necessary */
+    margin-right: 1rem; /* Adds some space between the icon and the text */
+}
+
+/* This class is added to ensure no margin at the bottom of the h3 causes alignment issues */
+.footer-brand h3.mb-0 {
+    margin-bottom: 0; /* Removes the bottom margin from h3 */
+}
+
+.footer img{
+    width:66px
+}
+
+.social-media a {
+    color: #aaa;
+    margin-right: 10px;
+}
+
+.social-media a:hover {
+    color: #fff;
+}
+
+footer .btn-primary {
+    background-color: #37b6ff; /* Match the button to the theme blue */
+    color: #fff;
+    border: none; /* Optional: remove the border for a cleaner look */
+    padding: 0.75em 1.5em; /* Larger padding for a bigger button */
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .footer .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
