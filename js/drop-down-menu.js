@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             title: "Dump Runs",
         },
         {
-            title: "Turf Install",
+            title: "Landscape & Install",
         },
         {
             title: "Handyman",
