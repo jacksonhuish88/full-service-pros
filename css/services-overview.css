@@ -1,11 +1,10 @@
 .services-overview {
-    background-color: #121212; /* A clean black background */
+    /* background-color: #121212; A clean black background */
     color: #fff; /* Dark text for contrast */
-}
-
-.services-overview h1 {
-    color: #37b6ff;
-    text-shadow: 1px 1px 0 #242424, 2px 2px 0 #242424, 1px 1px 0 #242424;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../img/bull.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .services-overview h2 {
